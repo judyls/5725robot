@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SHIELD - Free Bootstrap 3 Theme">
+    <meta name="author" content="Carlos Alvarez - Alvarez.is - blacktie.co">
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
+
+    <title>ECE 5725: Pet Robot</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/icomoon.css">
+    <link href="assets/css/animate-custom.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/mycustom.css">
+
+
+    
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+    
+    <script src="assets/js/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
+    
+
+        <!-- PERMLINK USED FOR NAVBAR http://work.smarchal.com/twbscolor/css/ea2525b42e2effffffeae9e90 -->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.js"></script>
+      <script src="assets/js/respond.min.js"></script>
+    <![endif]-->N
+  </head>
+
+  <body data-spy="scroll" data-offset="0" data-target="#navbar-main">
+  
+  
+  	<div id="navbar-main">
+      <!-- Fixed navbar -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon icon-shield" style="font-size:30px; color:#3498db;"></span>
+          </button>
+          <a class="navbar-brand hidden-xs hidden-sm" href="index.html">PET ROBOT</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#home" class="smoothScroll">Home</a></li>
+			<li> <a href="design.html" class="smoothScroll">Design and Testing</a></li>
+			<li> <a href="results.html" class="smoothScroll">Results</a></li>
+			<li> <a href="conclusion.html" class="smoothScroll">Conclusion</a></li>
+			<li> <a href="team.html" class="smoothScroll">Team</a></li>
+			<li> <a href="appendix.html" class="smoothScrool">Appendix</a></li>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+    </div>
+
+  
+  
+		<!-- ==== HEADERWRAP ==== -->
+	    <div id="headerwrap" id="home" name="home">
+			<header class="clearfix">
+	  		 		<!--h1><span class="icon icon-shield"></span></h1-->
+	  		 		<h1>PET ROBOT</h1>
+	  		 		<p>A voice controlled robot using Raspberry Pi</p>
+	  		 		<p>December 11, 2016</p>
+	  		 		<p>Judy Stephen (jls633) & Cameron Boroumand (cb596)</p>
+	  		</header>	    
+	    </div><!-- /headerwrap -->
+
+		<!-- ==== GREYWRAP ==== -->
+		<div id="greywrap">
+			<div class="row">
+				<div class="col-lg-4 callout">
+					<span class="icon icon-headphones"></span>
+					<h2>Speech Recognition</h2>
+					<p>We used Google Speech Recognition API so that the robot can listen to user input and recognize keywords.</p>
+				</div><!-- col-lg-4 -->
+					
+				<div class="col-lg-4 callout">
+					<span class="icon icon-eye"></span>
+					<h2>Object Detection</h2>
+					<p>We use OpenCV to implement a fetch algorithm where the robot will try to find a blue object and go towards it.</p>
+				</div><!-- col-lg-4 -->	
+				
+				<div class="col-lg-4 callout">
+					<span class="icon icon-music"></span>
+					<h2>Speech Synthesis</h2>
+					<p>We used speech synthesis engine to let the robot reply back to users, such as saying todays date. The robot can also play back songs.</p>
+				</div><!-- col-lg-4 -->	
+			</div><!-- row -->
+		</div><!-- greywrap -->
+
+		<!-- ==== SECTION DIVIDER1 MOTIVATION-->
+		<section class="section-divider textdivider divider1">
+			<div class="container">
+				<h1>MOTIVATION</h1>
+				<hr>
+				<p>We wanted to create a user friendly final project that would resonate with regular consumers. It would have to be something that could potentially be helpful for everyday life. At the same time we wanted to incorporate speech recognition. Our goal led us to make a pet robot which would utilize both speech recognition and computer vision to create a user friendly environment.</p>
+			</div><!-- container -->
+		</section><!-- section -->
+		
+		<!-- ==== INTRODUCTION ==== -->
+		<div class="container" id="about" name="about">
+			<div class="row white">
+			<br>
+				<h1 class="centered">INTRODUCTION</h1>
+				<hr>
+				
+				<div class="col-lg-12">
+					<p>We created a Pet Robot that resembles many of the qualities of your pet at home, except that this one has a microcontroller, a microphone, two servos, and a few wires attached to it. Our Pet Robot reacts to a set of user commands and obediently carries out the tasks it is given. Tell it to “move forward” and it will do so. Ask it to “move right” and it will do so and use its front distance sensor to ensure that it does not run into a wall, in case you were trying to play tricks on it. You may question the robot’s brain capacity, but simply ask it to find a blue or green object in the room. It will find both, and it will even navigate itself towards both of them to prove it to you. Our Pet Robot speaks – you can talk to it and expect a voice response back. We hope that this webpage helps you to understand the design behind our Pet Robot and the various resources we leveraged to enable its multiple functionalities.</p>
+				</div><!-- col-lg-12 -->
+			</div><!-- row -->
+		</div><!-- container -->
+
+		<!-- ==== GREYWRAP ==== -->
+		<div id="greywrap">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 centered">
+						<img class="img-responsive" src="img/demoday.jpg" align="">
+					</div>
+					<div class="col-lg-4">
+						<h2>We are excited to share our project!</h2>
+						<p>We had so much fun working on this project and learned a lot in the process. We hope you find this website helpful in learning our methodology and tools to create our pet robot.</p>
+						<p><a class="btn btn-success" href="design.html">Learn More</a></p>
+					</div>					
+				</div><!-- row -->
+			</div>
+			<br>
+			<br>
+		</div><!-- greywrap -->
+		
+		<!-- ==== SECTION DIVIDER6 FINALE ==== -->
+		<section class="section-divider textdividerB divider6">
+			<div class="container">
+				<h1>CREATED FOR ECE 5725, Fall 2016</h1>
+				<hr>
+				<p>School of Electrical and Computer Engineering</p>
+				<p>Cornell University</p>
+			</div><!-- container -->
+		</section><!-- section -->
+
+		<div id="footerwrap">
+			<div class="container">
+				<h4>Copyright &copy; <script>new Date().getFullYear()>2010&&document.write(new Date().getFullYear());</script>, Judy Stephen and Cameron Boroumand</h4>
+                <h4>Using theme by <a href="http://blacktie.co">BlackTie.co</a></h4>
+			</div>
+		</div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+		
+
+	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="assets/js/retina.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="assets/js/smoothscroll.js"></script>
+	<script type="text/javascript" src="assets/js/jquery-func.js"></script>
+  </body>
+</html>
